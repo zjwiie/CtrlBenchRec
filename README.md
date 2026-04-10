@@ -16,8 +16,8 @@ controllability assessments.
 ```text
 
 ├── data/                        # Datasets (ML-1M, preprocessed Amazon Toys & Games)
-├── models/                      # Sequential recommendation model definitions (e.g., SASRec, BGE)
-├── rec_models/                  # Non-sequential recommendation models (e.g., twhin-bert-base)
+├── model/                       # Recommendation model definitions (e.g., SASRec, Narm, Qwen)
+├── encoder/                     # Textual Encoder for Embedding Generation (e.g., twhin-bert)
 ├── generated_user_profile/      # User profiles generated at different stages
 ├── tool/                        # Data loaders and embedding processors
 ├── runner/                      # Scripts for training, inference, and evaluation (e.g., epoch.py, evaluation.py)
@@ -52,7 +52,7 @@ Run the following command in your terminal to install the necessary dependencies
 pip install -r requirements.txt
 ```
 2.**Load Bert Encoder**\
-Execute the script to load the twhin-bert-base model:
+Execute the script to load the twhin-bert encoder:
 ```bash
 python runner/load_twhin_bert.py
 ```

@@ -99,6 +99,6 @@ models/
 *.sqlite
 
 tmp
-/rec_models/twhin-bert-base/
+/encoder/twhin-bert-base/
 /data/rec_history.json
-/rec_models/Qwen3___5-2B/
+/model/Qwen3___5-2B/

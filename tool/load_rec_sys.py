@@ -75,7 +75,7 @@ def get_sasrec():
     args = InferenceArgs()
     model = SASRec(args)
     # 添加 map_location 参数，强制将显存里的权重映射到内存（CPU）中
-    model.load_state_dict(torch.load('../rec_models/narm/best_acc_model.pth', map_location=torch.device('cpu')))
+    model.load_state_dict(torch.load('../encoder/narm/best_acc_model.pth', map_location=torch.device('cpu')))
     model.eval()
 
 def run_narm():

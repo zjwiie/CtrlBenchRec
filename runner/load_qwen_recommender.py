@@ -75,7 +75,7 @@ def inference(text, tokenizer, model):
 
 # --- 主程序运行 ---
 if __name__ == "__main__":
-    tokenizer, model = _load_model("../rec_models/Qwen3___5-2B")
+    tokenizer, model = _load_model("../model/Qwen3___5-2B")
 
     prompt = "你是谁。"
     print(f"User: {prompt}")
