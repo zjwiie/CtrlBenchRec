@@ -116,6 +116,9 @@ Following the experimental setup and evaluation metrics detailed in Section 5.2,
       <th>base(100)</th>
       <th>base_small (27)</th>
       <th>CtrlBench-Rec</th>
+      <th>base(100)</th>
+      <th>base_small (27)</th>
+      <th>CtrlBench-Rec</th>
     </tr>
   </thead>
   <tbody>
