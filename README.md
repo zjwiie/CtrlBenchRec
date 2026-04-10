@@ -105,10 +105,55 @@ python runner/evaluation.py
 ### Result
 Following the experimental setup and evaluation metrics detailed in Section 5.2, "Controllability across different recommender system architectures," we conducted a series of experiments on the SASRec model. The results are presented below:
 
-| Interaction Rounds (t) | MovieLens-1M (Coverage (%) ↑) | | | MovieLens-1M (Exploration Efficiency ↓) | | |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| | **base(100)** | **base_small (27)** | **CtrlBench-Rec (27 Agents)** | **base(100)** | **base (27)** | **CtrlBench-Rec (27 Agents)** |
-| **t=5** | 5.6% | 2.05% | 2.33% | 2.89 | 2.06 | 1.31 |
-| **t=10** | 9.68% | 3.91% | 4.71% | 2.98 | 1.84 | 1.39 |
-| **t=15** | 12.20% | 5.10% | 7.23% | 3.54 | 2.02 | 1.45 |
-| **t=20** | 15.46% | 6.56% | 8.95% | 3.78 | 2.16 | 1.58 |
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Interaction Rounds (t)</th>
+      <th colspan="3">MovieLens-1M (Coverage (%) ↑)</th>
+      <th colspan="3">MovieLens-1M (Exploration Efficiency ↓)</th>
+    </tr>
+    <tr>
+      <th>base(100)</th>
+      <th>base_small (27)</th>
+      <th>CtrlBench-Rec</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>t=5</b></td>
+      <td>5.6%</td>
+      <td>2.05%</td>
+      <td>2.33%</td>
+      <td>2.89</td>
+      <td>2.06</td>
+      <td>1.31</td>
+    </tr>
+    <tr>
+      <td><b>t=10</b></td>
+      <td>9.68%</td>
+      <td>3.91%</td>
+      <td>4.71%</td>
+      <td>2.98</td>
+      <td>1.84</td>
+      <td>1.39</td>
+    </tr>
+    <tr>
+      <td><b>t=15</b></td>
+      <td>12.20%</td>
+      <td>5.10%</td>
+      <td>7.23%</td>
+      <td>3.54</td>
+      <td>2.02</td>
+      <td>1.45</td>
+    </tr>
+    <tr>
+      <td><b>t=20</b></td>
+      <td>15.46%</td>
+      <td>6.56%</td>
+      <td>8.95%</td>
+      <td>3.78</td>
+      <td>2.16</td>
+      <td>1.58</td>
+    </tr>
+  </tbody>
+</table>
