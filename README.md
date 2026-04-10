@@ -101,3 +101,14 @@ python runner/epoch.py
 ``` bash
 python runner/evaluation.py
 ```
+
+### Result
+Following the experimental setup and evaluation metrics detailed in Section 5.2, "Controllability across different recommender system architectures," we conducted a series of experiments on the SASRec model. The results are presented below:
+
+| Interaction Rounds (t) | MovieLens-1M (Coverage (%) ↑) | | | MovieLens-1M (Exploration Efficiency ↓) | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| | **base(100)** | **base_small (27)** | **CtrlBench-Rec (27 Agents)** | **base(100)** | **base (27)** | **CtrlBench-Rec (27 Agents)** |
+| **t=5** | 5.6% | 2.05% | 2.33% | 2.89 | 2.06 | 1.31 |
+| **t=10** | 9.68% | 3.91% | 4.71% | 2.98 | 1.84 | 1.39 |
+| **t=15** | 12.20% | 5.10% | 7.23% | 3.54 | 2.02 | 1.45 |
+| **t=20** | 15.46% | 6.56% | 8.95% | 3.78 | 2.16 | 1.58 |

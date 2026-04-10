@@ -128,7 +128,7 @@ def compare_two_profile(profile_path1,profile_path2):
     # raw_profile_list2 = profile_list2
     # profile_list2 = []
     # random.seed(10)
-    # numbers = random.sample(range(len(raw_profile_list2)), 31)
+    # numbers = random.sample(range(len(raw_profile_list2)), 27)
     # for number in numbers:
     #     profile_list2.append(raw_profile_list2[number])
     for user_profile in profile_list2:
@@ -800,4 +800,30 @@ if __name__ == '__main__':
     target_tag_list = ['Action', 'Adventure', 'Thriller', 'War', 'Romance', 'Film-Noir']
     # target_tag_list= ["Action Figures & Statues","Arts & Crafts","Puzzles","Drawing & Painting Supplies","Science"]
     compare_two_profile("../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_debate_epoch20/user_27_profile.json",
+                        "../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_debate_epoch20/user_27_profile_0_4.json")
+
+    compare_two_profile("../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_debate_epoch20/user_27_profile.json",
+                        "../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_debate_epoch20/user_27_profile_0_9.json")
+
+    compare_two_profile("../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_debate_epoch20/user_27_profile.json",
+                        "../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_debate_epoch20/user_27_profile_0_14.json")
+
+    compare_two_profile("../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_debate_epoch20/user_27_profile.json",
                         "../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_debate_epoch20/user_27_profile_0_19.json")
+
+    # compare_two_profile(
+    #     "../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_base_epoch20/user_100_profile.json",
+    #     "../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_base_epoch20/user_100_profile_0_4.json")
+    #
+    # compare_two_profile(
+    #     "../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_base_epoch20/user_100_profile.json",
+    #     "../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_base_epoch20/user_100_profile_0_9.json")
+    #
+    # compare_two_profile(
+    #     "../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_base_epoch20/user_100_profile.json",
+    #     "../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_base_epoch20/user_100_profile_0_14.json")
+    #
+    # compare_two_profile(
+    #     "../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_base_epoch20/user_100_profile.json",
+    #     "../generated_user_profile/behavior_length_6_sasrec/behavior_length_6_sasrec/ml1m_base_epoch20/user_100_profile_0_19.json")
+    #
